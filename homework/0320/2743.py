@@ -36,3 +36,18 @@ def get_valid_input():
 result = get_valid_input()
 print(result)
 """
+
+
+print(ord("A"))  # 65
+print(ord("Z"))  # 65
+print(ord("a"))  # 65
+print(ord("z"))  # 65
+
+word = input()
+for char in word:
+    if ord("A") <= ord(char) <= ord("2"):
+        flag = True
+    else:
+        print(char, "is not alphabet")
+        flag = False
+        break
