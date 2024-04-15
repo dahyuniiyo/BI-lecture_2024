@@ -1,11 +1,13 @@
-data = list(input())
+data = str(input())
 
 score = 0
+count = 0
 
-for i in data:
-    if i == "O":
-        score += 1
+for char in data:
+    if char == "O":
+        count += 1
+        score += count
     else:
-        score == 0
+        count = 0
 
 print(score)
