@@ -57,4 +57,3 @@
     * 헤더 확인 : samtools view -H sample.chr21.sorted.bam  
     * 리드를 눈으로 확인하는 법 : samtools tview sample.chr21.sorted.bam  --> /키 입력 후 position을 입력한다
     
-
