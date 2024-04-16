@@ -1,13 +1,16 @@
-data = str(input())
+N = int(input())
 
-score = 0
-count = 0
+for i in range(N):
+    data = str(input())
 
-for char in data:
-    if char == "O":
-        count += 1
-        score += count
-    else:
-        count = 0
+    score = 0
+    count = 0
 
-print(score)
+    for char in data:
+        if char == "O":
+            count += 1
+            score += count
+        else:
+            count = 0
+
+    print(score)

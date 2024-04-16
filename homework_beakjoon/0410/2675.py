@@ -1,8 +1,14 @@
-R, S = input().split()
+N = int(input())
 
-X = int(R)
-data = list(S)
+for i in range(N):
 
-if data:
-    for char in data:
-        print(char * X, end="")
+    R, S = input().split()
+
+    X = int(R)
+    data = list(S)
+
+    if data:
+        for char in data:
+            print(char * X, end="")
+
+    print()
