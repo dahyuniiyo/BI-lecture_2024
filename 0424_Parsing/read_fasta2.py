@@ -1,5 +1,5 @@
 seq = ""
-with open("test_aa.fasta.txt") as handle:
+with open("test_aa.fasta") as handle:
     for line in handle:
         if line.startswith(">"):
             continue
