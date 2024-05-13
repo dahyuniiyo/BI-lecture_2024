@@ -1,15 +1,16 @@
+"""
 result = 0
 
 for i in range(1, 11):
     result += 1
 
 print(result)
-
+"""
 
 seq = ""
 with open("test.fasta") as handle:
     for line in handle:
-        if line.strartwith(">"):
+        if line.startswith(">"):
             continue
         seq += line.strip()
 
